@@ -3,7 +3,7 @@ import {Pressable, StyleSheet, View} from 'react-native';
 import {Text, TextInput, Button} from 'react-native-paper';
 import {useDispatch} from 'react-redux';
 
-function GoalInput(props: any) {
+function GoalInput() {
   const [goalText, setGoalText] = useState<string>('');
 
   const dispatch = useDispatch();

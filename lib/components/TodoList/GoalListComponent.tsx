@@ -5,7 +5,7 @@ import GoalItemComponent from './GoalItemComponent';
 import {useState} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 
-function GoalListComponent(props: any) {
+function GoalListComponent() {
   const goalList = useSelector((state: any) => state.goalList);
 
   const list = partition(goalList, d => d.isCompleted);
