@@ -2,8 +2,9 @@ import {BottomNavigation, Text} from 'react-native-paper';
 import {useState} from 'react';
 import TodoListComponent from '../TodoList/TodoListComponent';
 import WidgetComponent from '../Widgets/WidgetComponent';
+import HomeComponent from '../Home/HomeComponent';
 
-const HomeRoute = () => <Text>Home</Text>;
+const HomeRoute = () => <HomeComponent />;
 const ToDoRoute = () => <TodoListComponent />;
 const WidgetsRoute = () => <WidgetComponent />;
 
